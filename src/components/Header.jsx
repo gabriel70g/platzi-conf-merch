@@ -10,10 +10,12 @@ const Header = () => {
   return (
     <div className="Header">
       <h1 className="Header-title">
-        <Link to="/">PlatziConf Merch</Link>
+        <Link to="/" alt="PlatziConf Merch">
+          PlatziConf Merch
+        </Link>
       </h1>
       <div className="Header-checkout">
-        <Link to="/checkout">
+        <Link to="/checkout" alt="checkout">
           <i className="fas fa-shopping-basket" />
         </Link>
         {cart.length > 0 && <div className="Header-alert">{cart.length}</div>}

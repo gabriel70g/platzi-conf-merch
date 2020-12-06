@@ -1,6 +1,6 @@
 {
   "short_name": "Platzi Conf Store",
-  "name": "A simple Store",
+  "name": "ConfStore",
   "icons": [
     {
       "src": "assets/icon.png",
@@ -8,8 +8,11 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://platzi-store-merch-2c4ca.web.app/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
   "background_color": "#222",
   "theme_color": "#222",
-  "display": "standalone"
+  "related_applications": [],
+  "prefer_related_applications": false
 }
